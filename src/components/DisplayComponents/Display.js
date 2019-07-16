@@ -1,5 +1,8 @@
 import React from "react";
 
 const Display = () => {
-  return <div>{/* Display any props data here */}</div>;
+const placeholderDisplay = 0;
+  return <div className='display'>{placeholderDisplay}</div>;
 };
+
+export default Display;
